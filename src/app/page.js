@@ -69,40 +69,6 @@ function App() {
             </button>
           </div>
 
-          {/* {loading ? (
-            <div className="flex items-center justify-center py-10">
-              <div className="loader"></div>
-            </div>
-          ) : (
-            <div className="transition-opacity duration-500 ease-in-out opacity-100">
-              <p className="text-2xl font-semibold italic mb-6 text-green-200">
-                “{quote.quote}”
-              </p>
-              <p className="text-lg font-bold text-gray-700 dark:text-gray-300 mb-8">
-                — {quote.author}
-              </p>
-              <div className="flex flex-wrap gap-6 justify-center">
-                <button
-                  onClick={fetchQuote}
-                  className="bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white px-6 py-2 rounded-full transition-all duration-300"
-                >
-                  New Quote
-                </button>
-                <button
-                  onClick={copyToClipboard}
-                  className="bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-600 hover:to-cyan-700 text-white px-6 py-2 rounded-full transition-all duration-300"
-                >
-                  Copy
-                </button>
-                <button
-                  onClick={tweetQuote}
-                  className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white px-6 py-2 rounded-full transition-all duration-300"
-                >
-                  Tweet
-                </button>
-              </div>
-            </div>
-          )} */}
           {loading ? (
             <div className="flex items-center justify-center py-10">
               <div className="loader"></div>
