@@ -54,7 +54,7 @@ body {
   mask-composite: intersect;
   animation: l4 1s infinite steps(10);
 }
- 
+
 @keyframes l4 {
   to {
     transform: rotate(1turn);
